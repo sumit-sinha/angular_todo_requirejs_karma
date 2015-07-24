@@ -1,0 +1,17 @@
+{
+  "name": "todo",
+  "description": "this is package json file to define node dependencies",
+  "license": "MIT",
+  "devDependencies": {
+    "karma": "^0.13.2",
+    "requirejs": "^2.1.19",
+    "mocha": "^2.2.5",
+    "karma-mocha": "^0.2.0",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-requirejs": "^0.2.2",
+    "angular-mocks": "^1.4.3",
+    "angular": "^1.4.3",
+    "chai": "^3.2.0",
+    "karma-chai": "^0.1.0"
+  }
+}

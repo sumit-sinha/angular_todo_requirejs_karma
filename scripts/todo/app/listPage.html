@@ -1,0 +1,21 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="javascript:void(0);">To Do</a>
+		</div>
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav">
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<div style="margin-top: 70px">
+	<ul class="list-group" ng-if="todos != null && todos.length > 0">
+		<li class="list-group-item" ng-repeat="todo in todos">{{ todo.task }}</li>
+	</ul>
+
+	<div class="alert alert-info" role="alert" ng-if="todos == null || todos.length === 0">Hurray!!! There are no pending items in To Do list</div>
+
+	<a type="button" class="btn btn-default" style="color:white;width:100%;background-color: #000000;border-color: #000000;" href="#/app/add">Add New</a>
+</div>

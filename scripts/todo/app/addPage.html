@@ -1,0 +1,32 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="javascript:void(0);">To Do</a>
+		</div>
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav">
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<div style="margin-top: 70px">
+
+	<div class="alert alert-info" role="alert" ng-if="message != null">{{ message }}</div>
+
+	<div class="input-group" style="margin-bottom: 10px">
+	  <span class="input-group-addon" id="basic-addon1">Task</span>
+	  <input type="text" class="form-control" placeholder="Task" ng-model="task">
+	</div>
+
+	<div class="input-group">
+	  <span class="input-group-addon" id="basic-addon1">Time</span>
+	  <input type="text" class="form-control" placeholder="Time" ng-model="time">
+	</div>
+
+	<div style="margin-top: 10px">
+		<a type="button" class="btn btn-default" style="color:white;width:48%;background-color: #000000;border-color: #000000;margin-right:2%;" href="#/app/list">Show List</a>
+
+		<a type="button" class="btn btn-default" style="color:white;width:48%;background-color: #000000;border-color: #000000;" href="javascript:void(0);" ng-click="onAddClick($event);">Add To Do</a>
+	</div>
+</div>
