@@ -1,5 +1,5 @@
 Its a sample TODO application based on the blog posted here
-	http://saberblogs.com/blog/angular_require_karma
+	http://www.saberblogs.com/angular_js_require_js_and_karma
 	
 To run this application follow below steps
 
